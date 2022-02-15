@@ -11,7 +11,7 @@ export default () => {
                             <Card.Body>
                                 <Card.Title>Medical Interaction App</Card.Title>
                                 <Card.Text>
-                                    Patient, Doctor and Family members interactive portal
+                                    Patient, Doctor and Family member interactive portal
                                 </Card.Text>
                                 <Button onClick={() => window.open("https://github.com/neuhausm/CMProjectMedical_App")} variant="primary">Show</Button>
                             </Card.Body>
