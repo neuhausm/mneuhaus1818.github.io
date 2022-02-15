@@ -1,70 +1,33 @@
-import {Row, Col, Card, Button} from 'react-bootstrap';
+import { Row, Col, Card, Button } from 'react-bootstrap';
 
 export default () => {
-    return <div style={{marginBottom: '320px'}}>
+    return <div style={{ marginBottom: '320px' }}>
         <h3>Projects</h3>
-        <div style={{color: "black"}}>
+        <div style={{ color: "black" }}>
             <Col>
                 <Row>
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title>Project 1</Card.Title>
+                                <Card.Title>Medical Interaction App</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on
+                                    Patient, Doctor and Family members interactive portal
                                 </Card.Text>
-                                <Button onClick={() => window.open("www.google.com")} variant="primary">Show</Button>
+                                <Button onClick={() => window.open("https://github.com/neuhausm/CMProjectMedical_App")} variant="primary">Show</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title>Project 2</Card.Title>
+                                <Card.Title>Monte Carlo</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on
+                                    Integral Evaluation using the Monte Carlo Method
                                 </Card.Text>
-                                <Button  onClick={() => window.open("www.google.com")} variant="primary">Show</Button>
+                                <Button onClick={() => window.open("www.https://github.com/neuhausm/MonteCarlo.com")} variant="primary">Show</Button>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Project 3</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on
-                                </Card.Text>
-                                <Button  onClick={() => window.open("www.google.com")} variant="primary">Show</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col />
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Project 4</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on
-                                </Card.Text>
-                                <Button  onClick={() => window.open("www.google.com")} variant="primary">Show</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Project 5</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on
-                                </Card.Text>
-                                <Button  onClick={() => window.open("www.google.com")} variant="primary">Show</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col />
                 </Row>
             </Col>
         </div>
