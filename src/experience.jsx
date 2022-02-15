@@ -3,7 +3,7 @@ export default () => {
         <h3>Experience</h3>
         <ul>
             <li>ICPC International Collegiate Programming Contest</li>
-            <li>Administrative Assistant</li>
+            <li>Administrative Assistant </li>
         </ul>
     </div>
 }
