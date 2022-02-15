@@ -1,8 +1,8 @@
 import Typist from "react-typist";
 
 export default () => {
-    return <div style={{color: "white", marginBottom: '10px', height: '850px'}}>
-        <div style={{height: '300px'}} />
+    return <div style={{ color: "white", marginBottom: '10px', height: '850px' }}>
+        <div style={{ height: '300px' }} />
         <h1>Maya Neuhaus</h1>
         <Typist>
             <span>Programmer. </span>
